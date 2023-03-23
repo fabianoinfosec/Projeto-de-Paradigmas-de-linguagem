@@ -8,6 +8,3 @@ Contexto
 
 Apesar de já haver linguagens de programação que possam fazer essa função (Linguagem “R”, por exemplo), geralmente essas linguagens necessitam de um certo conhecimento de programação para a sua utilização, portanto, pretendemos criar uma DSL para que profissionais de saúde possam programar consultas e analisar DATASETS de uma forma mais eficiente e sem necessariamente possuírem conhecimentos em linguagens de programação.
 
-teste
-
-teste2
