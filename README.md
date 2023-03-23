@@ -1,5 +1,5 @@
-# Projeto-de-Paradigmas-de-linguagem
-Repositório contendo o projeto da disciplina Paradigmas de Linguagens de Programação
+# Criação de uma DLS externa para análise de DATASETS
+
 
 Nossa proposta será criar uma DSL (Linguagem de domínio especifico) externa com a finalidade de permitir que profissionais de saúde consigam programar consultas e analisar DATASETS na área da medicina de um modo geral. Pretendemos utilizar para esse fim, uma linguagem funcional voltada para visualização de DATASETS.
 
