@@ -9,3 +9,4 @@ Apesar de já haver linguagens de programação que possam fazer essa função (
 # Equipe
 
 Fabiano Carlos da Silva - fcs3@cin.ufpe.br
+Alex Cordeiro Cunha - 
