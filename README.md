@@ -8,19 +8,19 @@ Apesar de já haver linguagens de programação que possam fazer essa função (
 
 # BNF
 
-<program> ::= <command>*
+program ::= command*
  
-<command> ::= <label> | <entry> | <checkbutton> | <radiobutton> | <button>
+command ::= label | entry | checkbutton | radiobutton | button
  
-<label> ::= "label" <string>
+label ::= "label" string
  
-<entry> ::= "entry" <string>
+entry ::= "entry" string
  
-<checkbutton> ::= "checkbutton" <string> <string>
+checkbutton ::= "checkbutton" String string
  
-<radiobutton> ::= "radiobutton" <string> <string> <string> <string>
+radiobutton ::= "radiobutton" string string string string
  
-<button> ::= "button" <string> <string>
+button ::= "button" string string
 
 # Equipe
 
