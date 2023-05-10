@@ -4,7 +4,7 @@ Esse projeto tem a proposta de criar uma DSL (Linguagem de domínio especifico) 
 
  # Contexto
 
-Apesar de já haver linguagens de programação que possam fazer essa função (Linguagem “R”, por exemplo), geralmente essas linguagens necessitam de um certo conhecimento de programação para a sua utilização, portanto, pretendemos criar uma DSL para que profissionais de saúde possam programar consultas e analisar DATASETS de uma forma mais eficiente e sem necessariamente possuírem conhecimentos em linguagens de programação.
+Apesar de já haver linguagens de programação que possam fazer essa função, geralmente essas linguagens necessitam de um certo conhecimento de programação para a sua utilização, portanto, pretendemos criar uma DSL para que profissionais possam manipular braços robóticos de uma forma mais eficiente e sem necessariamente possuírem conhecimentos em linguagens de programação.
 
 # BNF
 
