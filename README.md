@@ -16,11 +16,11 @@ label ::= "label" string
  
 entry ::= "entry" string
  
-checkbutton ::= "checkbutton" String string
+checkbutton ::= "checkbutton" String | string
  
-radiobutton ::= "radiobutton" string string string string
+radiobutton ::= "radiobutton" string | string | string | string
  
-button ::= "button" string string
+button ::= "button" string | string
 
 # Equipe
 
