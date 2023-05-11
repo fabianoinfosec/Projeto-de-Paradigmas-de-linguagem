@@ -19,6 +19,7 @@ TARGET: /[a-zA-Z0-9_]+/;
 < model > ::= < command >*
 
 < command > ::= "move" < target > "to" < target >
+
 < target > ::= /[a-zA-Z0-9_]+/
 
 # Equipe
