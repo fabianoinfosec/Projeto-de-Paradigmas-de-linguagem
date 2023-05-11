@@ -22,6 +22,12 @@ radiobutton ::= "radiobutton" string | string | string | string
  
 button ::= "button" string | string
 
+# Gramática
+
+gramática
+
+Model: commands*=Command; Command: "move" source=TARGET "to" target=TARGET; TARGET: /[a-zA-Z0-9_]+/;
+
 # Equipe
 
 Fabiano Carlos da Silva - fcs3@cin.ufpe.br
