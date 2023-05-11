@@ -8,19 +8,11 @@ Apesar de já haver linguagens de programação que possam fazer essa função, 
 
 # BNF
 
-program ::= command*
+<model> ::= <command>*
  
-command ::= label | entry | checkbutton | radiobutton | button
+<command> ::= "move" <target> "to" <target>
  
-label ::= "label" string
- 
-entry ::= "entry" string
- 
-checkbutton ::= "checkbutton" String | string
- 
-radiobutton ::= "radiobutton" string | string | string | string
- 
-button ::= "button" string | string
+<target> ::= /[a-zA-Z0-9_]+/
 
 # Gramática
 
