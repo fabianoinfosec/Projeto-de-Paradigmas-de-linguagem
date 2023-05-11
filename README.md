@@ -20,7 +20,7 @@ Apesar de já haver linguagens de programação que possam fazer essa função, 
  
 < radiobutton > ::= "radiobutton" < string > < string > < string > < string >
  
-<button> ::= "button" <string> <string>
+< button > ::= "button" < string > < string >
 
 < model > ::= < command >*
 
