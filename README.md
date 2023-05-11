@@ -12,15 +12,10 @@ Model: commands*=Command; Command: "move" source=TARGET "to" target=TARGET; TARG
 
 ## BNF
 
-<start> ::= (<name> | <email>)*
+< model > ::= < command >*
 
-<name> ::= <NAME>
-
-<email> ::= <EMAIL>
-
-<NAME> ::= (["a"-"z","A"-"Z"])+
-
-<EMAIL> ::= (["a"-"z","A"-"Z","0"-"9","+","-","_",".","@"])+
+< command > ::= "move" < target > "to" < target >
+< target > ::= /[a-zA-Z0-9_]+/
 
 # Equipe
 
