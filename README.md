@@ -8,15 +8,15 @@ Apesar de já haver linguagens de programação que possam fazer essa função, 
 
 # BNF
 
-<start> ::= (<name> | <email>)*
+ <start> ::= (<name> | <email>)*
 
-<name> ::= <NAME>
+ <name> ::= <NAME>
 
-<email> ::= <EMAIL>
+ <email> ::= <EMAIL>
 
-<NAME> ::= (["a"-"z","A"-"Z"])+
+ <NAME> ::= (["a"-"z","A"-"Z"])+
 
-<EMAIL> ::= (["a"-"z","A"-"Z","0"-"9","+","-","_",".","@"])+
+ <EMAIL> ::= (["a"-"z","A"-"Z","0"-"9","+","-","_",".","@"])+
 
 <model> ::= <command>*
  
