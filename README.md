@@ -8,7 +8,11 @@ Apesar de já haver linguagens de programação que possam fazer essa função, 
 
 # Gramática
 
-Model: commands*=Command; Command: "move" source=TARGET "to" target=TARGET; TARGET: /[a-zA-Z0-9_]+/;
+Model: commands*=Command; 
+
+Command: "move" source=TARGET "to" target=TARGET; 
+
+TARGET: /[a-zA-Z0-9_]+/;
 
 ## BNF
 
