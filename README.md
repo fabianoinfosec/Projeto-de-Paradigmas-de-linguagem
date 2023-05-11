@@ -8,6 +8,20 @@ Apesar de já haver linguagens de programação que possam fazer essa função, 
 
 ## BNF
 
+< program > ::= < command >*
+ 
+< command > ::= < label > | < entry > | < checkbutton > | < radiobutton > | < button >
+ 
+< label > ::= "label" < string >
+ 
+< entry > ::= "entry" < string >
+ 
+< checkbutton > ::= "checkbutton" < string > < string >
+ 
+< radiobutton > ::= "radiobutton" < string > < string > < string > < string >
+ 
+<button> ::= "button" <string> <string>
+
 < model > ::= < command >*
 
 < command > ::= "move" < target > "to" < target >
