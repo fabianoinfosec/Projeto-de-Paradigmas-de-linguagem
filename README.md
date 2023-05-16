@@ -9,7 +9,9 @@ Apesar de já haver linguagens de programação que possam fazer essa função, 
 ## BNF
 
 < string > ::= < alphas >
+
 < integer > ::= < nums >
+
 < grammar > ::= < string > "string1" < string > "string2" < integer > "integer"
 
 ## GRAMÁTICA
