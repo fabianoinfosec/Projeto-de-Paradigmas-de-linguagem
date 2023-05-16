@@ -6,27 +6,14 @@ Esse projeto tem a proposta de criar uma DSL (Linguagem de domínio especifico) 
 
 Apesar de já haver linguagens de programação que possam fazer essa função, geralmente essas linguagens necessitam de um certo conhecimento de programação para a sua utilização, portanto, pretendemos criar uma DSL para que profissionais possam manipular braços robóticos de uma forma mais eficiente e sem necessariamente possuírem conhecimentos em linguagens de programação.
 
-## BNF
+## GRAMÁTICA
 
-< program > ::= < command >*
- 
-< command > ::= < label > | < entry > | < checkbutton > | < radiobutton > | < button >
- 
-< label > ::= "label" < string >
- 
-< entry > ::= "entry" < string >
- 
-< checkbutton > ::= "checkbutton" < string > < string >
- 
-< radiobutton > ::= "radiobutton" < string > < string > < string > < string >
- 
-< button > ::= "button" < string > < string >
+from pyparsing import Word, alphas, nums
 
-< model > ::= < command >*
+string = Word(alphas)
+integer = Word(nums).setParseAction(lambda t: int(t[0]))
 
-< command > ::= "move" < target > "to" < target >
-
-< target > ::= /[a-zA-Z0-9_]+/
+grammar = string("string1") + string("string2") + integer("integer")
 
 # Equipe
 
