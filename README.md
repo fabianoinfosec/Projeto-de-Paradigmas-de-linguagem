@@ -6,6 +6,12 @@ Esse projeto tem a proposta de criar uma DSL (Linguagem de domínio especifico) 
 
 Apesar de já haver linguagens de programação que possam fazer essa função, geralmente essas linguagens necessitam de um certo conhecimento de programação para a sua utilização, portanto, pretendemos criar uma DSL para que profissionais possam manipular braços robóticos de uma forma mais eficiente e sem necessariamente possuírem conhecimentos em linguagens de programação.
 
+## BNF
+
+< string > ::= < alphas >
+< integer > ::= < nums >
+< grammar > ::= < string > "string1" < string > "string2" < integer > "integer"
+
 ## GRAMÁTICA
 
 from pyparsing import Word, alphas, nums
