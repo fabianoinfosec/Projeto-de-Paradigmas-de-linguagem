@@ -1,6 +1,6 @@
 # DSL para manipulação de braço robótico usando o simulador RoboDK instalada ao SO Linux.
 
-Esse projeto tem a proposta de criar uma DSL (Linguagem de domínio especifico) com a finalidade de permitir que profissionais consigam manipular braços robóticos através do simulador RoboDK. A DSL será desenvolvida em Python usando biblioteca textX para especificação da gramática formal.
+Esse projeto tem a proposta de criar uma DSL (Linguagem de domínio especifico) com a finalidade de permitir que profissionais consigam manipular braços robóticos através do simulador RoboDK. A DSL será desenvolvida em Haskell que irá gerar um programa em Python responsável pela comunicação com o Robo DK.
 
  # Contexto
 
