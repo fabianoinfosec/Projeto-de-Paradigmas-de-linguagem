@@ -10,7 +10,7 @@ Apesar de já haver linguagens de programação que possam fazer essa função, 
 
 command         ::= <a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/GrammarParser.hs">"goto" targetName</a> 
 
-targetName      ::= identifier
+targetName      ::= <a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/GrammarParser.hs">identifier</a> 
 
 identifier      ::= letter (letter | digit | '_')*
 
