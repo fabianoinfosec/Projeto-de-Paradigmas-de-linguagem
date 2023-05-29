@@ -1,4 +1,4 @@
-# DSL para manipulação de braço robótico usando o simulador RoboDK instalada ao SO Linux.
+# DSL para manipulação de braço robótico usando o simulador RoboDK.
 
 Esse projeto tem a proposta de criar uma DSL (Linguagem de domínio especifico) com a finalidade de permitir que profissionais consigam manipular braços robóticos através do simulador RoboDK. 
 
