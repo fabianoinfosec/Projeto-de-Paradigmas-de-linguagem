@@ -8,7 +8,7 @@ Apesar de já haver linguagens de programação que possam fazer essa função, 
 
 ## BNF
 
-command         ::= "goto" targetName
+command         ::= <a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/GrammarParser.hs">"goto" targetName</a> 
 
 targetName      ::= identifier
 
@@ -18,11 +18,6 @@ letter          ::= 'a' | 'b' | 'c' | ... | 'z' | 'A' | 'B' | 'C' | ... | 'Z'
 
 digit           ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 
-## GRAMÁTICA
-
-<a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/GrammarParser.hs">Grammar Parser</a>
-
-<a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/Main.hs">Main</a>
 
 # Equipe
 
