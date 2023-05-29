@@ -2,7 +2,7 @@
 
 Esse projeto tem a proposta de criar uma DSL (Linguagem de domínio especifico) com a finalidade de permitir que profissionais consigam manipular braços robóticos através do simulador RoboDK. 
 
-A DSL será desenvolvida em Haskell que irá gerar um programa em Python responsável pela comunicação com o RoboDK.
+A DSL será desenvolvida na linguagem funcional "Haskell", no qual irá gerar um programa em "Python" responsável pela comunicação com o RoboDK.
 
  # Contexto
 
