@@ -22,6 +22,8 @@ digit           ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 
 <a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/GrammarParser.hs">Grammar Parser</a>
 
+<a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/Main.hs">Main</a>
+
 # Equipe
 
 Fabiano Carlos da Silva - fcs3@cin.ufpe.br
