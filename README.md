@@ -12,11 +12,11 @@ command         ::= <a href="https://github.com/fabianoinfosec/Projeto-de-Paradi
 
 targetName      ::= <a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/GrammarParser.hs">identifier</a> 
 
-identifier      ::= letter (letter | digit | '_')*
+identifier      ::= <a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/GrammarParser.hs">letter (letter | digit | '_')*</a>
 
-letter          ::= 'a' | 'b' | 'c' | ... | 'z' | 'A' | 'B' | 'C' | ... | 'Z'
+letter          ::= <a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/GrammarParser.hs">'a' | 'b' | 'c' | ... | 'z' | 'A' | 'B' | 'C' | ... | 'Z'</a>
 
-digit           ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+digit           ::= <a href="https://github.com/fabianoinfosec/Projeto-de-Paradigmas-de-linguagem/blob/Projeto/GrammarParser.hs">'0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'</a>
 
 
 # Equipe
